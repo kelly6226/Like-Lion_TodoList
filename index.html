@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewpoint" conent="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>To-Do List 만들기</title>
+  </head>
+  <body>
+    <header>
+      <!--To DO List 제목-->
+      <h1 id="listTitle">🦁 To-Do list 🦁</h1>
+    </header>
+
+    <!--list 작성 및 출력 부분-->
+    <section>
+      <div id="explanation">
+        <!--사용법 설명 부분-->
+        <h4>사용법</h4>
+        &#x2705; + 버튼을 눌러서 할 일을 추가해보세요. <br />
+        &#x2705; 할 일을 삭제하고 싶다면, 옆에 삭제를 클릭하세요. <br />
+      </div>
+      <form>
+        <input type="text" placeholder="할 일을 입력하세요." />
+        <button id="addButton">+</button>
+      </form>
+
+      <ul id="showList"></ul>
+    </section>
+    <script src="react.js"></script>
+  </body>
+</html>
+

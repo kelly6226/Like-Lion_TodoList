@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url(imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#listTitle {
+  width: 250px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 50px 50px 50px 50px;
+  padding: 5px;
+  border-style: groove;
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section {
+  margin-left: 50px;
+}
+
+#explanation {
+  line-height: 30px;
+  background-color: whitesmoke;
+  position: relative;
+  width: 480px;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: double;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 480px;
+}
+
+#showList {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 0px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style: outset;
+}
+
+li {
+  list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+  font-size: 14px;
+  margin-bottom: 3px;
+  padding: 2px;
+  padding-right: 10px;
+  border-style: solid;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
